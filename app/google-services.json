@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "428740569119",
+    "project_id": "aircontrol-26bc0",
+    "storage_bucket": "aircontrol-26bc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428740569119:android:176406f865bd4856cb0d2a",
+        "android_client_info": {
+          "package_name": "com.example.aircontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtdM8c0yy_5Z21AkVW0XGNbU6qtmqRyWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

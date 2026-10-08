@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base de AirControl -->
+    <style name="Base.Theme.AirControl" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Color principal: verde claro del logo -->
+        <item name="colorPrimary">@color/logo_mint</item>
+
+        <!-- Color del texto/iconos sobre el verde -->
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/logo_mint_dark</item>
+
+        <!-- Fondo general -->
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Barra de estado superior -->
+        <item name="android:statusBarColor">@color/logo_mint</item>
+
+        <!-- Iconos oscuros en la barra superior -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Barra inferior de navegación -->
+        <item name="android:navigationBarColor">@color/background</item>
+
+    </style>
+
+    <style name="Theme.AirControl" parent="Base.Theme.AirControl" />
+
+</resources>

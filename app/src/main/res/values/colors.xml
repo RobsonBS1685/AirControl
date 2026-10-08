@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand / AirControl Logo Palette -->
+    <color name="logo_mint">#B4FCDB</color>
+    <color name="logo_mint_dark">#059669</color>
+    <color name="logo_mint_light">#E6FFF4</color>
+    <color name="primary">#B4FCDB</color>
+    <color name="on_primary">#064E3B</color>
+
+    <!-- Neutral & Background Palette -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="border_color">#CBD5E1</color>
+    <color name="input_background">#FFFFFF</color>
+
+    <!-- Validation / Error -->
+    <color name="error_wine">#8B4A4A</color>
+
+</resources>

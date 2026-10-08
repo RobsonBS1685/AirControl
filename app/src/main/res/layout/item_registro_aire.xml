@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_input"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TEMPERATURA -->
+
+    <TextView
+        android:id="@+id/txtItemTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatura: 28 °C"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- HUMEDAD -->
+
+    <TextView
+        android:id="@+id/txtItemHumedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Humedad: 60 %"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp" />
+
+    <!-- ESTADO DEL VENTILADOR -->
+
+    <TextView
+        android:id="@+id/txtItemEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Ventilador: Encendido"
+        android:textColor="@color/logo_mint_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- BOTONES -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/primary"
+            android:text="Editar"
+            android:textAllCaps="false"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold"
+            app:cornerRadius="12dp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/surface_variant"
+            android:text="Eliminar"
+            android:textAllCaps="false"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
